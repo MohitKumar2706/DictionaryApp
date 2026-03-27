@@ -77,5 +77,7 @@ try{
     alert("Error!")
 }
 
+    input.value="";
+
     
 })

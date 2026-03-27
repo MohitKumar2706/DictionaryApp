@@ -48,7 +48,7 @@ function partofspeech(entry0){
 function soundofword(entry0){
     let sound=entry0.phonetics[0].audio;
     if(sound){
-   let audio=document.createElement("audio")
+   let audio=document.createElement("audio");
    audio.controls=true;
    audio.src=sound;
     so.appendChild(audio);

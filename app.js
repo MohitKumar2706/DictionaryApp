@@ -56,6 +56,9 @@ function soundofword(entry0){
 
 }
 
+
+//Code starts working from here
+
 button.addEventListener("click", async (e)=>{
     e.preventDefault();
     emptyEveryThing()
